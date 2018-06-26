@@ -1,7 +1,6 @@
 {
     "name": "fw/fw",
     "require": {
-        "monolog/monolog": "^1.23",
         "swiftmailer/swiftmailer": "^6.0",
         "wixel/gump": "dev-master",
         "hautelook/phpass": "1.0.0",
