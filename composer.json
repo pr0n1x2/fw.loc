@@ -1,0 +1,17 @@
+{
+    "name": "fw/fw",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "swiftmailer/swiftmailer": "^6.0",
+        "wixel/gump": "dev-master",
+        "hautelook/phpass": "1.0.0",
+        "intervention/image": "^2.4",
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "fw\\": "vendor/fw",
+            "app\\": "app"
+        }
+    }
+}

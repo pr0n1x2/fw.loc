@@ -1,0 +1,13 @@
+.idea
+vendor/composer
+vendor/doctrine
+vendor/egulias
+vendor/fzaninotto
+vendor/guzzlehttp
+vendor/hautelook
+vendor/intervention
+vendor/monolog
+vendor/psr
+vendor/swiftmailer
+vendor/wixel
+vendor/autoload.php
