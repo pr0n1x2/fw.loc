@@ -2,7 +2,7 @@
 
 use fw\core\Router;
 
-define('DEBUG', 1);
+define('DEBUG', 0);
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/fw/core');
 define('ROOT', dirname(__DIR__));
@@ -22,7 +22,7 @@ require __DIR__ . '/../vendor/autoload.php';
     if (is_file($file)) {
         require_once $file;
     }
-});*/
+});
 
 new \fw\core\App;
 
@@ -33,7 +33,7 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', [
 Router::add('^page/(?P<alias>[a-z-]+)$', [
     'controller' => 'Page',
     'action' => 'view'
-]);
+]);*/
 
 Router::add('^admin$', [
     'controller' => 'User',
